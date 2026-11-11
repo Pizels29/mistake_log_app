@@ -1,0 +1,11 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/mistake_widget_description"
+    android:initialLayout="@layout/mistake_widget"
+    android:minHeight="110dp"
+    android:minWidth="110dp"
+    android:minResizeHeight="110dp"
+    android:minResizeWidth="110dp"
+    android:previewLayout="@layout/mistake_widget"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="3600000"
+    android:widgetCategory="home_screen" />

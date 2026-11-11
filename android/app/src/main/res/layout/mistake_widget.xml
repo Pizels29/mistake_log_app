@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mistake_widget_background"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/widget_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Mistake Log"
+        android:textColor="#B8B8BD"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/widget_photo"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="6dp"
+        android:contentDescription="Photo of the mistake"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/widget_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:text="Today's mistake"
+        android:textColor="#F5F5F7"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/widget_tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#98989D"
+        android:textSize="11sp" />
+</LinearLayout>
